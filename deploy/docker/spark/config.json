@@ -1,0 +1,10 @@
+{
+  "backgroundProfiler": true,
+  "backgroundProfilerInterval": 10,
+  "backgroundProfilerEngine": "async",
+  "viewerUrl": "https://spark.lucko.me/",
+  "bytebinUrl": "https://spark-usercontent.lucko.me/",
+  "bytesocksHost": "spark-usersockets.lucko.me",
+  "overrideTpsCommand": true,
+  "disableResponseBroadcast": false
+}
