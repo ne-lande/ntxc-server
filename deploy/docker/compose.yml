@@ -29,6 +29,7 @@ services:
       HIDE_ONLINE_PLAYERS: "true"
       ENFORCE_SECURE_PROFILE: "false"
       PLAYER_IDLE_TIMEOUT: "10"
+      PAUSE_WHEN_EMPTY_SECONDS: "-1"
     volumes:
       - "./mcserver:/data" # mcserver
     healthcheck:

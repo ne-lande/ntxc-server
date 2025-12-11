@@ -26,6 +26,12 @@ logs:
         -f compose.dev.yml logs -fn 100
 
 [group('docker')]
+[group('dev')]
+[working-directory: 'deploy/docker']
+exec:
+    docker compose exec -it minecraft rcon-cli
+
+[group('docker')]
 [working-directory: 'deploy/docker']
 stop:
     @docker compose \
