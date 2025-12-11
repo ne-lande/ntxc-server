@@ -1,9 +1,61 @@
 hash-format = "sha256"
 
 [[files]]
-file = "README.md"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+file = "mods/anti-xray.pw.toml"
+hash = "5be52a53f2105ee4e2f0202beb6151e612fd2a711e59bc7fcad25b20ace39f06"
+metafile = true
 
 [[files]]
-file = "compose.yml"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+file = "mods/c2me-fabric.pw.toml"
+hash = "953ee9c6aa309b6efc02e1251fb80d994ad06e62b8b856b7db08f3d34ad6c70c"
+metafile = true
+
+[[files]]
+file = "mods/easyauth.pw.toml"
+hash = "6adda40ac93019f2ce2d31f4a4c219036985fa9c5f7a4c5aa5e4709349268633"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "78568b988a30084520820c45d6f03de3442eca5800d77e870879200af28b5bc2"
+metafile = true
+
+[[files]]
+file = "mods/ferrite-core.pw.toml"
+hash = "76a12a836d4c7f0f943a1e391dd2d7b5c4673caa497fff16593d49449376b117"
+metafile = true
+
+[[files]]
+file = "mods/image2map.pw.toml"
+hash = "71915821f61cc0abc0920e331d41ce5d2ce5a6bd1edb9ec35d540e485f890a3a"
+metafile = true
+
+[[files]]
+file = "mods/lithium.pw.toml"
+hash = "6225ea9413da6413cc543199774832a0f65d20fa64013dede1c418eb1a7ef269"
+metafile = true
+
+[[files]]
+file = "mods/moderner-beta.pw.toml"
+hash = "5686d2f7284b49f6af715d2ba6ea0db25ac37c169591ecaa0c131ed00ccc3531"
+metafile = true
+
+[[files]]
+file = "mods/scalablelux.pw.toml"
+hash = "936e9028071f4e49ecd551aadab4c161f9a7143764b4cc89f8077296bd8645a6"
+metafile = true
+
+[[files]]
+file = "mods/seedguard.pw.toml"
+hash = "d574929c48ee577c63e3dd7629b2f68a26f396d36af96306022edf793e4b7195"
+metafile = true
+
+[[files]]
+file = "mods/simple-voice-chat.pw.toml"
+hash = "b3d722f9fda8a271d7f176cdec02a0417bef40ee46acd1dad783e282a9d904f0"
+metafile = true
+
+[[files]]
+file = "mods/spark.pw.toml"
+hash = "c073f13897a838e3c409e46b8a1d8cb510d6a6584dd815aeadaf4886f1779513"
+metafile = true
