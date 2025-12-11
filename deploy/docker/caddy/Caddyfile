@@ -1,7 +1,0 @@
-:8000 {
-    reverse_proxy bluemap:8100
-}
-
-:8001 {
-    reverse_proxy spark-viewer:3000
-}
