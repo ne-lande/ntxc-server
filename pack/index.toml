@@ -6,13 +6,13 @@ hash = "5be52a53f2105ee4e2f0202beb6151e612fd2a711e59bc7fcad25b20ace39f06"
 metafile = true
 
 [[files]]
-file = "mods/c2me-fabric.pw.toml"
-hash = "953ee9c6aa309b6efc02e1251fb80d994ad06e62b8b856b7db08f3d34ad6c70c"
+file = "mods/auth.pw.toml"
+hash = "c4028ca7f03cf6c3138a8c5cdcbea9418026d4d487608b4d42feebb481204f76"
 metafile = true
 
 [[files]]
-file = "mods/easyauth.pw.toml"
-hash = "6adda40ac93019f2ce2d31f4a4c219036985fa9c5f7a4c5aa5e4709349268633"
+file = "mods/c2me-fabric.pw.toml"
+hash = "953ee9c6aa309b6efc02e1251fb80d994ad06e62b8b856b7db08f3d34ad6c70c"
 metafile = true
 
 [[files]]
