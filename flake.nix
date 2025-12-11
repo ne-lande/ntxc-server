@@ -4,10 +4,11 @@
     flake-parts.url = "github:hercules-ci/flake-parts";
   };
   outputs =
-    inputs@{ self, pkgs, ... }:
+    inputs@{ self, ... }:
+    with import <nixpkgs> { };
     let
-      myTerraform = pkgs.terraform.withPlugins (p: [
-        p.yandex
+      tf = terraform.withPlugins (p: [
+        p.yandex-cloud_yandex
       ]);
     in
     inputs.flake-parts.lib.mkFlake { inherit inputs; } {
@@ -23,10 +24,9 @@
             default = pkgs.mkShell {
               nativeBuildInputs = with pkgs; [
                 yandex-cloud
-                myTerraform
                 packwiz
+                tf
               ];
-              DOTNET_BIN = "${pkgs.dotnetCorePackages.sdk_9_0}/bin/dotnet";
             };
           };
         };
