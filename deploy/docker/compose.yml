@@ -27,35 +27,14 @@ services:
       HIDE_ONLINE_PLAYERS: "true"
       ENFORCE_SECURE_PROFILE: "false"
       PLAYER_IDLE_TIMEOUT: "10"
-      UID: "1001"
-      GID: "1001"
     volumes:
-      - "./data:/data"
+      - "./mcserver:/data" # mcserver
+    healthcheck:
+      test: ["CMD", "mc-monitor", "status", "--host", "localhost"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 60s
 
-  bluemap:
-    image: ghcr.io/bluemap-minecraft/bluemap:latest
-    restart: always
-    command: -r -u -w
-    ports:
-      - "8100:8100"
-    volumes:
-      - "./config:/app/config"
-      - "./world:/app/world"
-      - "./world_nether:/app/world_nether"
-      - "./world_the_end:/app/world_the_end"
-      - "./data:/app/data"
-      - "./web:/app/web"
-
-  nginx:
-    image: nginx:latest
-    restart: always
-    ports:
-      - "80:80"
-      - "443:443"
-    volumes:
-      - "./nginx/conf.d:/etc/nginx/conf.d"
-      - "./nginx/html:/usr/share/nginx/html"
-      - "./nginx/certs:/etc/nginx/certs"
-    depends_on:
-      - minecraft
-      - bluemap
+volumes:
+  mcserver:

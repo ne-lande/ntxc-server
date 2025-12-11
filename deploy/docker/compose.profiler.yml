@@ -6,25 +6,28 @@ services:
     pid: "container:mc"
     command: >
       sh -c "java -jar spark-agent.jar $(pidof java) port=2222"
+    depends_on:
+      minecraft:
+        condition: service_healthy
 
   spark-bytebin:
     image: ghcr.io/lucko/bytebin
-    ports:
-      - 3000:8080
     volumes:
       - data:/opt/bytebin/content
       - db:/opt/bytebin/db
     environment:
       BYTEBIN_MISC_KEYLENGTH: 15
       BYTEBIN_CONTENT_MAXSIZE: 5
+    depends_on:
+      - "spark-agent"
 
   spark-bytesocks:
     image: ghcr.io/lucko/bytesocks
-    ports:
-      - 3000:8080
     environment:
       BYTESOCKS_MISC_KEYLENGTH: 15
       BYTESOCKS_RATELIMIT_MSG_AMOUNT: 10000
+    depends_on:
+      - "spark-agent"
 
   spark-viewer:
     image: ghcr.io/lucko/spark-viewer
@@ -33,3 +36,11 @@ services:
     environment:
       SPARK_VIEWER_MISC_KEYLENGTH: 15
       SPARK_VIEWER_CONTENT_MAXSIZE: 5
+    depends_on:
+      - "spark-bytesocks"
+      - "spark-bytebin"
+
+  caddy:
+    depends_on:
+      spark-viewer:
+        condition: service_healthy

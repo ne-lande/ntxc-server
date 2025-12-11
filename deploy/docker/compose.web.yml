@@ -1,0 +1,15 @@
+services:
+  caddy:
+    image: caddy:latest
+    restart: always
+    ports:
+      - "8000:8000"
+      - "8001:8001"
+    volumes:
+      - ./caddy/Caddyfile:/etc/caddy/Caddyfile
+      - caddy_data:/data
+      - caddy_config:/config
+
+volumes:
+  caddy_data:
+  caddy_config:

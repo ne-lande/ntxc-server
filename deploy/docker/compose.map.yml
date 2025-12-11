@@ -1,0 +1,24 @@
+services:
+  bluemap:
+    image: ghcr.io/bluemap-minecraft/bluemap:latest
+    restart: unless-stopped
+    command: -r -u -w
+    volumes:
+      - "./bluemap/config:/app/config" # bluemap config
+      - "./bluemap/web:/app/web" # webapp, including renders
+      - "./bluemap/data:/app/data" # other persistant data
+      - "./mcserver/world:/app/world:ro" # world, note the read-only
+    depends_on:
+      minecraft:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:8100/"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+
+  caddy:
+    depends_on:
+      bluemap:
+        condition: service_healthy
