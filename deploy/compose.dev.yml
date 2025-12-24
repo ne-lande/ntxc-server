@@ -1,0 +1,9 @@
+services:
+  minecraft:
+    environment:
+      MEMORY: "4256M"
+    volumes:
+      - "./mcserver:/data"
+
+volumes:
+  mcserver:

@@ -11,7 +11,7 @@ pull:
 
 [group('docker')]
 [group('dev')]
-[working-directory: 'deploy/docker']
+[working-directory: 'deploy']
 start:
     @docker compose \
         -f compose.yml \
@@ -19,7 +19,7 @@ start:
 
 [group('docker')]
 [group('dev')]
-[working-directory: 'deploy/docker']
+[working-directory: 'deploy']
 logs:
     @docker compose \
         -f compose.yml \
@@ -27,12 +27,12 @@ logs:
 
 [group('docker')]
 [group('dev')]
-[working-directory: 'deploy/docker']
+[working-directory: 'deploy']
 exec:
     docker compose exec -it minecraft rcon-cli
 
 [group('docker')]
-[working-directory: 'deploy/docker']
+[working-directory: 'deploy']
 stop:
     @docker compose \
         -f compose.yml \
