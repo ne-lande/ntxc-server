@@ -1,0 +1,7 @@
+ssh_pwauth: no
+users:
+  - name: yc-user
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    shell: /bin/bash
+    ssh_authorized_keys:
+      - "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEK/2XMDXxaGrDTMiyS+8hcjHj17uZZDF8pByl26Qtny nelande.prod@gmail.com"

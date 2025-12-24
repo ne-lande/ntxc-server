@@ -1,0 +1,31 @@
+data "yandex_compute_image" "container-optimized-image" {
+  family = "container-optimized-image"
+}
+
+resource "yandex_compute_instance" "mc" {
+  name = "terraform1"
+  boot_disk {
+    initialize_params {
+      image_id = data.yandex_compute_image.container-optimized-image.id
+    }
+  }
+
+  resources {
+    cores  = 16
+    memory = 16
+  }
+
+  network_interface {
+    subnet_id = yandex_vpc_subnet.subnet-1.id
+    nat       = true
+  }
+
+  metadata = {
+    docker-compose = file("${path.module}./docker/compose.yml")
+    user-data      = file("${path.module}/cloud.yml")
+  }
+
+  secondary_disk {
+    disk_id = yandex_compute_disk.datadisk.id
+  }
+}

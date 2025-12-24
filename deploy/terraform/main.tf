@@ -7,5 +7,5 @@ terraform {
 }
 
 provider "yandex" {
-  zone = var.zone
+  zone = "ru-central1-a"
 }
