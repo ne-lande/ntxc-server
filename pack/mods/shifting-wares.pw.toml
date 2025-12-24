@@ -1,0 +1,13 @@
+name = "Shifting Wares"
+filename = "shifting-wares-3.2.0+1.21.11.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/jD7tenmB/versions/XDaU3PNZ/shifting-wares-3.2.0%2B1.21.11.jar"
+hash-format = "sha512"
+hash = "48aecd501fdb603a65d247915abd9ac73948e29b8400c63ff015fcd00ca29a2a020613a4578f21e275ecf77124cb812df94b6ad13e2a40835c53d0ffb16ce597"
+
+[update]
+[update.modrinth]
+mod-id = "jD7tenmB"
+version = "XDaU3PNZ"
