@@ -43,3 +43,27 @@ stop:
 pack:
     @packwiz refresh
     @packwiz update --all
+
+[group('deploy')]
+[group('terraform')]
+[working-directory: 'deploy']
+validate:
+    @terraform validate
+
+[group('deploy')]
+[group('terraform')]
+[working-directory: 'deploy']
+plan:
+    @terraform plan
+
+[group('deploy')]
+[group('terraform')]
+[working-directory: 'deploy']
+apply:
+    @terraform apply
+
+[group('deploy')]
+[group('terraform')]
+[working-directory: 'deploy']
+destroy:
+    @terraform destroy

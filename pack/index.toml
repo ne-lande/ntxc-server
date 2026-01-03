@@ -269,7 +269,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "c252a208703bd1e996fb036540d1ed1017acf04eb99263f1792839d179b406c5"
+hash = "ff260b35492778bdce59ffa064a59c6a9953ffd409eb40782af14b78a29a2cb8"
 metafile = true
 
 [[files]]
@@ -279,7 +279,7 @@ metafile = true
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
-hash = "541a143f8adf28db21b3ac3af0438d33c7d1b3fd9ad0fd01c0e3f6e6526d07b7"
+hash = "479cc9008a66ce4dea0b0be0f749a986d73f5fe778516d6682a5202e19706179"
 metafile = true
 
 [[files]]
@@ -309,7 +309,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "88a36b21d538d44aca7dd0a7e5ad8c09b1b263be3f4381e3bb22bc9f94ee7290"
+hash = "0e87ab10adb3db84b1d6d2ce8bdd7158878b56c965055056b10ad6cde2634568"
 metafile = true
 
 [[files]]
@@ -338,6 +338,11 @@ hash = "885b6cb2c46d2f8556fc814e577949c206aed617ab2aff7d9e5bdcdb9f3fd99b"
 metafile = true
 
 [[files]]
+file = "mods/silk.pw.toml"
+hash = "a4c742db2f87bd02aa5dfd47faab025d985a9e21e69c72dd923a643a7a908513"
+metafile = true
+
+[[files]]
 file = "mods/simple-voice-chat.pw.toml"
 hash = "0cbc900ae05bdd88801539eeee6b95dde99426f1d5c2c7c8c194e5f78bbd6e52"
 metafile = true
@@ -345,6 +350,16 @@ metafile = true
 [[files]]
 file = "mods/spark.pw.toml"
 hash = "c073f13897a838e3c409e46b8a1d8cb510d6a6584dd815aeadaf4886f1779513"
+metafile = true
+
+[[files]]
+file = "mods/veinminer-enchantment.pw.toml"
+hash = "56d354ec654763cc6c6c1c81a0110a6267a28eb8beac6eecddca3810c4de2dbd"
+metafile = true
+
+[[files]]
+file = "mods/veinminer.pw.toml"
+hash = "fc7bfaa3cc133f968b1a4ee6f0635c2980fb277870aec45e9d68ff313b0d1d9d"
 metafile = true
 
 [[files]]
