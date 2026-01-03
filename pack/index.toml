@@ -353,6 +353,11 @@ hash = "0cbc900ae05bdd88801539eeee6b95dde99426f1d5c2c7c8c194e5f78bbd6e52"
 metafile = true
 
 [[files]]
+file = "mods/skinrestorer.pw.toml"
+hash = "779286fb8a1f7325f6ee888313506d65acc0504a6b9cfe0ed1075398048413d5"
+metafile = true
+
+[[files]]
 file = "mods/spark.pw.toml"
 hash = "c073f13897a838e3c409e46b8a1d8cb510d6a6584dd815aeadaf4886f1779513"
 metafile = true
@@ -369,5 +374,5 @@ metafile = true
 
 [[files]]
 file = "mods/worldedit.pw.toml"
-hash = "0a4a263f603fe2f44357bb45f66f6e991ab5be2cacc39a3e674643cf9a96fe07"
+hash = "ec85eb2fb8af68643ac14c917ec83c0c9aae48fcce27d8ad9f9b76cfce9b7dea"
 metafile = true
