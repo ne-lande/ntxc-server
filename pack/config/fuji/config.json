@@ -1,15 +1,13 @@
 {
   "core": {
     "debug": {
-      "disable_all_modules": false,
-      "log_debug_messages": false,
+      "disable_all_modules": true,
+      "log_debug_messages": true,
       "print_user_guide_in_console": true
     },
     "backup": {
       "max_slots": 15,
-      "skip": [
-        "modules/head/head-data"
-      ]
+      "skip": ["modules/head/head-data"]
     },
     "language": {
       "default_language": "en_US",
@@ -27,7 +25,7 @@
       }
     },
     "permission": {
-      "all_commands_require_level_4_permission_to_use_by_default": false
+      "all_commands_require_level_4_permission_to_use_by_default": true
     },
     "scheduler": {
       "logger_level": "WARN"
@@ -47,7 +45,7 @@
       "enable": true
     },
     "chat": {
-      "enable": false,
+      "enable": true,
       "style": {
         "enable": true
       },
@@ -67,53 +65,53 @@
         "enable": true
       },
       "spy": {
-        "enable": false
+        "enable": true
       }
     },
     "placeholder": {
-      "enable": false
+      "enable": true
     },
     "predicate": {
-      "enable": false
+      "enable": true
     },
     "motd": {
-      "enable": false
+      "enable": true
     },
     "nametag": {
-      "enable": false
+      "enable": true
     },
     "tab": {
-      "enable": false
+      "enable": true
     },
     "tpa": {
-      "enable": false
+      "enable": true
     },
     "back": {
-      "enable": false
+      "enable": true
     },
     "home": {
-      "enable": false
+      "enable": true
     },
     "pvp": {
-      "enable": false
+      "enable": true
     },
     "afk": {
-      "enable": false,
+      "enable": true,
       "effect": {
         "enable": true
       }
     },
     "rtp": {
-      "enable": false
+      "enable": true
     },
     "works": {
-      "enable": false
+      "enable": true
     },
     "deathlog": {
-      "enable": false
+      "enable": true
     },
     "view": {
-      "enable": false
+      "enable": true
     },
     "echo": {
       "enable": true,
@@ -149,73 +147,73 @@
       }
     },
     "functional": {
-      "enable": false,
+      "enable": true,
       "workbench": {
-        "enable": false
+        "enable": true
       },
       "enchantment": {
-        "enable": false
+        "enable": true
       },
       "grindstone": {
-        "enable": false
+        "enable": true
       },
       "stonecutter": {
-        "enable": false
+        "enable": true
       },
       "anvil": {
-        "enable": false
+        "enable": true
       },
       "cartography": {
-        "enable": false
+        "enable": true
       },
       "enderchest": {
-        "enable": false
+        "enable": true
       },
       "smithing": {
-        "enable": false
+        "enable": true
       },
       "loom": {
-        "enable": false
+        "enable": true
       }
     },
     "economy": {
-      "enable": false
+      "enable": true
     },
     "system_message": {
-      "enable": false
+      "enable": true
     },
     "cleaner": {
-      "enable": false
+      "enable": true
     },
     "world": {
-      "enable": false,
+      "enable": true,
       "border": {
         "enable": true
       }
     },
     "skin": {
-      "enable": false
+      "enable": true
     },
     "title": {
-      "enable": false
+      "enable": true
     },
     "leaderboard": {
-      "enable": false
+      "enable": true
     },
     "jail": {
-      "enable": false
+      "enable": true
     },
     "kit": {
-      "enable": false
+      "enable": true
     },
     "rank": {
-      "enable": false
+      "enable": true
     },
     "head": {
-      "enable": false
+      "enable": true
     },
     "color": {
-      "enable": false,
+      "enable": true,
       "sign": {
         "enable": true
       },
@@ -224,263 +222,263 @@
       }
     },
     "sit": {
-      "enable": false
+      "enable": true
     },
     "teleport_warmup": {
-      "enable": false
+      "enable": true
     },
     "temp_ban": {
-      "enable": false
+      "enable": true
     },
     "anti_build": {
-      "enable": false
+      "enable": true
     },
     "warning": {
-      "enable": false
+      "enable": true
     },
     "maintenance": {
-      "enable": false
+      "enable": true
     },
     "command_scheduler": {
-      "enable": false
+      "enable": true
     },
     "command_permission": {
-      "enable": false
+      "enable": true
     },
     "command_rewrite": {
-      "enable": false
+      "enable": true
     },
     "command_alias": {
-      "enable": false
+      "enable": true
     },
     "command_bundle": {
-      "enable": false
+      "enable": true
     },
     "command_attachment": {
-      "enable": false
+      "enable": true
     },
     "command_interactive": {
-      "enable": false
+      "enable": true
     },
     "command_warmup": {
-      "enable": false
+      "enable": true
     },
     "command_cooldown": {
-      "enable": false
+      "enable": true
     },
     "command_toolbox": {
-      "enable": false,
+      "enable": true,
       "bed": {
-        "enable": false
+        "enable": true
       },
       "extinguish": {
-        "enable": false
+        "enable": true
       },
       "feed": {
-        "enable": false
+        "enable": true
       },
       "fly": {
-        "enable": false
+        "enable": true
       },
       "god": {
-        "enable": false
+        "enable": true
       },
       "hat": {
-        "enable": false
+        "enable": true
       },
       "heal": {
-        "enable": false
+        "enable": true
       },
       "itemname": {
-        "enable": false
+        "enable": true
       },
       "lore": {
-        "enable": false
+        "enable": true
       },
       "more": {
-        "enable": false
+        "enable": true
       },
       "ping": {
-        "enable": false
+        "enable": true
       },
       "realname": {
-        "enable": false
+        "enable": true
       },
       "nickname": {
-        "enable": false
+        "enable": true
       },
       "repair": {
-        "enable": false
+        "enable": true
       },
       "reply": {
-        "enable": false
+        "enable": true
       },
       "seen": {
-        "enable": false
+        "enable": true
       },
       "suicide": {
-        "enable": false
+        "enable": true
       },
       "top": {
-        "enable": false
+        "enable": true
       },
       "down": {
-        "enable": false
+        "enable": true
       },
       "trashcan": {
-        "enable": false
+        "enable": true
       },
       "tppos": {
-        "enable": false
+        "enable": true
       },
       "tphere": {
-        "enable": false
+        "enable": true
       },
       "warp": {
-        "enable": false
+        "enable": true
       },
       "burn": {
-        "enable": false
+        "enable": true
       },
       "help_op": {
-        "enable": false
+        "enable": true
       },
       "near": {
-        "enable": false
+        "enable": true
       },
       "jump": {
-        "enable": false
+        "enable": true
       },
       "compass": {
-        "enable": false
+        "enable": true
       },
       "glow": {
-        "enable": false
+        "enable": true
       },
       "freeze": {
-        "enable": false
+        "enable": true
       },
       "rules": {
-        "enable": false
+        "enable": true
       },
       "speed": {
-        "enable": false
+        "enable": true
       },
       "disconnect": {
-        "enable": false
+        "enable": true
       }
     },
     "command_spy": {
-      "enable": false
+      "enable": true
     },
     "command_event": {
-      "enable": false
+      "enable": true
     },
     "command_debug": {
-      "enable": false
+      "enable": true
     },
     "command_advice": {
-      "enable": false
+      "enable": true
     },
     "command_state": {
-      "enable": false
+      "enable": true
     },
     "command_menu": {
-      "enable": false
+      "enable": true
     },
     "command_meta": {
-      "enable": false,
+      "enable": true,
       "run": {
-        "enable": false
+        "enable": true
       },
       "for_each": {
-        "enable": false
+        "enable": true
       },
       "one_of": {
-        "enable": false
+        "enable": true
       },
       "chain": {
-        "enable": false
+        "enable": true
       },
       "IF": {
-        "enable": false
+        "enable": true
       },
       "NOT": {
-        "enable": false
+        "enable": true
       },
       "AND": {
-        "enable": false
+        "enable": true
       },
       "OR": {
-        "enable": false
+        "enable": true
       },
       "nop": {
-        "enable": false
+        "enable": true
       },
       "delay": {
-        "enable": false
+        "enable": true
       },
       "json": {
-        "enable": false
+        "enable": true
       },
       "attachment": {
-        "enable": false
+        "enable": true
       },
       "shell": {
-        "enable": false
+        "enable": true
       },
       "when_online": {
-        "enable": false
+        "enable": true
       }
     },
     "top_chunks": {
-      "enable": false
+      "enable": true
     },
     "world_downloader": {
-      "enable": false
+      "enable": true
     },
     "whitelist": {
-      "enable": false
+      "enable": true
     },
     "profiler": {
-      "enable": false
+      "enable": true
     },
     "launcher": {
-      "enable": false
+      "enable": true
     },
     "multiplier": {
-      "enable": false
+      "enable": true
     },
     "disabler": {
-      "enable": false,
+      "enable": true,
       "chat_speed_disabler": {
-        "enable": false
+        "enable": true
       },
       "move_speed_disabler": {
-        "enable": false
+        "enable": true
       },
       "move_wrongly_disabler": {
-        "enable": false
+        "enable": true
       },
       "max_player_disabler": {
-        "enable": false
+        "enable": true
       }
     },
     "queue": {
-      "enable": false
+      "enable": true
     },
     "gameplay": {
-      "enable": false,
+      "enable": true,
       "multi_obsidian_platform": {
-        "enable": false
+        "enable": true
       },
       "carpet": {
-        "enable": false,
+        "enable": true,
         "fake_player_manager": {
-          "enable": false
+          "enable": true
         },
         "better_info": {
-          "enable": false
+          "enable": true
         }
       }
     },
@@ -488,13 +486,13 @@
       "enable": true
     },
     "tester": {
-      "enable": false
+      "enable": true
     },
     "document": {
-      "enable": false
+      "enable": true
     },
     "evaluator": {
-      "enable": false
+      "enable": true
     }
   },
   "MOD_VERSION": "13.8.0"

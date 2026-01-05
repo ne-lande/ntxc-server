@@ -1,11 +1,12 @@
 [
-    {
-        "name": "Ores",
-        "blocks": [
-            "#c:ores"
-        ],
-        "tools": [
-            "#minecraft:pickaxes"
-        ]
-    }
+  {
+    "name": "Ores",
+    "blocks": ["#c:ores"],
+    "tools": ["#minecraft:pickaxes"]
+  },
+  {
+    "name": "Wood",
+    "blocks": ["#minecraft:logs", "#minecraft:leaves"],
+    "tools": ["#minecraft:axes"]
+  }
 ]
