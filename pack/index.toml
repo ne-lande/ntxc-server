@@ -273,8 +273,8 @@ hash = "2d58b7783694c38d8264f263b9ee1f8b31c1aa9dd98866deb20719b252dc4b47"
 metafile = true
 
 [[files]]
-file = "mods/bluemap-player-visibility.pw.toml"
-hash = "06f16564e30c2bdb391b3ff9645e5e86b134aae8e85757c2a5f0713988bd350c"
+file = "mods/bluemap-banners.pw.toml"
+hash = "dd54576306bcdc7c078c493ab418a2b6253e1938a29dcda140fef4808a40420c"
 metafile = true
 
 [[files]]
@@ -313,8 +313,13 @@ hash = "4bad5720d383f38e68af1a423c66808a966845a362216548eba010608fa4e2fd"
 metafile = true
 
 [[files]]
+file = "mods/elytra-lunge.pw.toml"
+hash = "398630e0b309f368766d9c9730b1fb2f2a8711cf467a980b9a573b73b1a985bc"
+metafile = true
+
+[[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "7adc0d54f139075d8f90dae18ca476753cc3145a70e09c9327736024adfe9b30"
+hash = "0229e8fe7f696f76a0fce46d11ddeb5d1f4b687f595558636abd27210cde2633"
 metafile = true
 
 [[files]]
@@ -373,6 +378,16 @@ hash = "7022fdce60750b3760cc13b4ecbc104e57ceda3996cede1528eb14eb5fa009df"
 metafile = true
 
 [[files]]
+file = "mods/polymer.pw.toml"
+hash = "b39ee5a28d5548d591e8f396d2407893affcc71470d7c058d3287039a960e55d"
+metafile = true
+
+[[files]]
+file = "mods/recipecooldown.pw.toml"
+hash = "43fbc9b70f49998be45314b9b557e925988825a204190be01ccbae5cc2df74df"
+metafile = true
+
+[[files]]
 file = "mods/scalablelux.pw.toml"
 hash = "936e9028071f4e49ecd551aadab4c161f9a7143764b4cc89f8077296bd8645a6"
 metafile = true
@@ -418,6 +433,11 @@ hash = "7390523148f7aa693093187cb9406bfe1a7b4c8d7afd0fe830b7a1aa0dd03040"
 metafile = true
 
 [[files]]
+file = "mods/universal-graves.pw.toml"
+hash = "c1166e4664aa67501d4daafac5e69cb29094dd46942d35e64b4d5d8a0a54decd"
+metafile = true
+
+[[files]]
 file = "mods/veinminer-enchantment.pw.toml"
 hash = "56d354ec654763cc6c6c1c81a0110a6267a28eb8beac6eecddca3810c4de2dbd"
 metafile = true
@@ -430,4 +450,9 @@ metafile = true
 [[files]]
 file = "mods/worldedit.pw.toml"
 hash = "ec85eb2fb8af68643ac14c917ec83c0c9aae48fcce27d8ad9f9b76cfce9b7dea"
+metafile = true
+
+[[files]]
+file = "mods/xaeronuhuh.pw.toml"
+hash = "f9771f725cba1db2f87f3a78f204e9c7a2f2702abfc5681156af04d60e40a74d"
 metafile = true

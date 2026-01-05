@@ -10,6 +10,7 @@ services:
     ports:
       - "25565:25565"
       - "8100:8100"
+      - "24454:24454/udp"
     environment:
       PACKWIZ_URL: "https://raw.githubusercontent.com/ne-lande/ntxc-server/refs/heads/main/pack/pack.toml"
       EULA: "TRUE"
@@ -34,6 +35,7 @@ services:
       PAUSE_WHEN_EMPTY_SECONDS: "-1"
       LEVEL_TYPE: moderner_beta:moderner_beta
       INITIAL_ENABLED_PACKS: minecart_improvements
+      VIEW_DISTANCE: 8
       RCON_CMDS_STARTUP: |-
         worldborder set 30000
       GENERATOR_SETTINGS: >-

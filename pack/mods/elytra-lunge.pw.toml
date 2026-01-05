@@ -1,0 +1,13 @@
+name = "Elytra Lunge"
+filename = "elytra-lunge-1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/rtwLqDFM/versions/VRCYou7s/elytra-lunge-1.0.jar"
+hash-format = "sha512"
+hash = "4726fcc1ca7170041bff600dd591ef9b4525ecb1f8f4d3942dc35da3b922c5d17bf5c697f8231edf4aa0e5f4697cb82196fc086005089476cf0425ec34234cc7"
+
+[update]
+[update.modrinth]
+mod-id = "rtwLqDFM"
+version = "VRCYou7s"

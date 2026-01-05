@@ -1,0 +1,13 @@
+name = "XaeroNuhUh"
+filename = "xaeronuhuh-1.1.0+1.21.11.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/hTNkpjj9/versions/SeFQqIuc/xaeronuhuh-1.1.0%2B1.21.11.jar"
+hash-format = "sha512"
+hash = "b8beedeafeb1232ebd18549221d63f62fa7fae8cd8bb66bd5d61875557bda15a16dedd784dbcc5ef8d1f0a8af59392e366f9449ef67ebf4a3c421d3536252af2"
+
+[update]
+[update.modrinth]
+mod-id = "hTNkpjj9"
+version = "SeFQqIuc"
