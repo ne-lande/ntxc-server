@@ -1,0 +1,13 @@
+name = "Incendium"
+filename = "Incendium_1.21.x_v5.4.10.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ZVzW5oNS/versions/BUigTHnK/Incendium_1.21.x_v5.4.10.jar"
+hash-format = "sha512"
+hash = "595d3f3cc0b037cd57506a9742fc85b7f980749ce2225c7e32e84801e6118362baa704e8291dc0267ee8e125a5c7309f2e148767fd3201a21ee901910b86c692"
+
+[update]
+[update.modrinth]
+mod-id = "ZVzW5oNS"
+version = "BUigTHnK"

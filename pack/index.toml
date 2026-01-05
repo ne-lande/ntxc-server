@@ -253,13 +253,28 @@ file = "config/worldedit/worldedit.properties"
 hash = "649ee572e5283466afca5999ebf7c5d25a148dfd6e3801d1d6d4c61b0c864dcf"
 
 [[files]]
+file = "mods/almanac.pw.toml"
+hash = "eb0287bff177c7dfab5802e6dd6adcf966b8f97101cbe583834950b41fc2af93"
+metafile = true
+
+[[files]]
+file = "mods/alternate-current.pw.toml"
+hash = "fc8ffe66dc0c7eb55cf2ce38d1ae4bf1c4cdfbfdcda2636b1cd140c851e03cc5"
+metafile = true
+
+[[files]]
 file = "mods/anti-xray.pw.toml"
 hash = "7ffd2cbb973d987d543b36f12cc9362baae07b0983b83a8292f063ed4287f9a9"
 metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "5d0603e338ddb39ddbac6c1732639c6b55c968e6a9dc9aab981dcae5ad3c34cf"
+hash = "2d58b7783694c38d8264f263b9ee1f8b31c1aa9dd98866deb20719b252dc4b47"
+metafile = true
+
+[[files]]
+file = "mods/bluemap-player-visibility.pw.toml"
+hash = "06f16564e30c2bdb391b3ff9645e5e86b134aae8e85757c2a5f0713988bd350c"
 metafile = true
 
 [[files]]
@@ -275,6 +290,16 @@ metafile = true
 [[files]]
 file = "mods/chunky.pw.toml"
 hash = "eaa52d6ff1bcb539956d50626085d9185eca346fabcf6b3c176c53192b9958ec"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "a06ef129798265e0d7249426fb0ed5c506725b0460dc3dfdb975b8978480895e"
+metafile = true
+
+[[files]]
+file = "mods/clumps.pw.toml"
+hash = "a5f67311e64ea67e8097c1fdd4d20cf11e1c5236334b5becabad7dabdae975db"
 metafile = true
 
 [[files]]
@@ -308,8 +333,18 @@ hash = "b11daf574301e161180f0c44aa4f834bf0c0eedd11212334f7b060cbe5b4090d"
 metafile = true
 
 [[files]]
+file = "mods/fuji.pw.toml"
+hash = "35b3add9148b332b8200d4bd038bc4b756dd68db2dee27fa9dff567af3e2a43c"
+metafile = true
+
+[[files]]
 file = "mods/image2map.pw.toml"
 hash = "71915821f61cc0abc0920e331d41ce5d2ce5a6bd1edb9ec35d540e485f890a3a"
+metafile = true
+
+[[files]]
+file = "mods/incendium.pw.toml"
+hash = "bef0d78723bcf15335544a175244cb43416a58977e2b7551a7b5200a85af3bfa"
 metafile = true
 
 [[files]]
@@ -318,13 +353,23 @@ hash = "0e87ab10adb3db84b1d6d2ce8bdd7158878b56c965055056b10ad6cde2634568"
 metafile = true
 
 [[files]]
+file = "mods/lmd.pw.toml"
+hash = "c921067d060d427e9295c8434d0ab1232566008caa300030b42c2ee2c12ad059"
+metafile = true
+
+[[files]]
 file = "mods/luckperms.pw.toml"
 hash = "0fcb21a2580ad82270c404aa36e042926a7f35b0151f785bd6c6afce23e6edc4"
 metafile = true
 
 [[files]]
+file = "mods/maplink.pw.toml"
+hash = "bb629dde390add8f98e58661320f3fe0bfd37f5f23e9cc0ce12b3786a4adc1f2"
+metafile = true
+
+[[files]]
 file = "mods/moderner-beta.pw.toml"
-hash = "5565dba42dcbf2ccbc0bac34b8a449d4e9f0d83cb839b009d94d9fe353ae48da"
+hash = "7022fdce60750b3760cc13b4ecbc104e57ceda3996cede1528eb14eb5fa009df"
 metafile = true
 
 [[files]]
@@ -335,6 +380,11 @@ metafile = true
 [[files]]
 file = "mods/seedguard.pw.toml"
 hash = "d574929c48ee577c63e3dd7629b2f68a26f396d36af96306022edf793e4b7195"
+metafile = true
+
+[[files]]
+file = "mods/servercore.pw.toml"
+hash = "16a351dac4db6e5b8035f56090710a227d33482797ef5bcc09a367099304be74"
 metafile = true
 
 [[files]]
@@ -349,7 +399,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "0cbc900ae05bdd88801539eeee6b95dde99426f1d5c2c7c8c194e5f78bbd6e52"
+hash = "9ff1a261860fcb16a7c7f124d738abcdfc1297363412d237540685003ff04d6b"
 metafile = true
 
 [[files]]
@@ -360,6 +410,11 @@ metafile = true
 [[files]]
 file = "mods/spark.pw.toml"
 hash = "c073f13897a838e3c409e46b8a1d8cb510d6a6584dd815aeadaf4886f1779513"
+metafile = true
+
+[[files]]
+file = "mods/tt20.pw.toml"
+hash = "7390523148f7aa693093187cb9406bfe1a7b4c8d7afd0fe830b7a1aa0dd03040"
 metafile = true
 
 [[files]]

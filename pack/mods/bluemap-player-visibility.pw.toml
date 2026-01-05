@@ -1,0 +1,13 @@
+name = "Bluemap Player Visibility"
+filename = "hide-players-bluemap-1.0.2.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/adZ3R9sy/versions/dBtCF1FA/hide-players-bluemap-1.0.2.jar"
+hash-format = "sha512"
+hash = "f8bd035052452075e7f47282d95be214cdebd3a3fcd941ef2a96670397c0f3b510a272e04c385212a196f947ceb0cff43bde602eed4fd963052b8c41c81b54e5"
+
+[update]
+[update.modrinth]
+mod-id = "adZ3R9sy"
+version = "dBtCF1FA"
