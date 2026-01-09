@@ -201,7 +201,7 @@
       "enable": false
     },
     "jail": {
-      "enable": true
+      "enable": false
     },
     "kit": {
       "enable": false
