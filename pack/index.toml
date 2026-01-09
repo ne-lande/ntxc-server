@@ -2,7 +2,19 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "6ab8a99d80fcba550f329ce49f52b86b8fdf9e3b9d4b78a936220aa2aecd53be"
+hash = "48092b5eb9a31443a09e38348d98674de20214d463a74e4fd4cf56e3a3d8d754"
+
+[[files]]
+file = "config/EasyAuth/backup/extended.conf.2026-01-05T18-39-15.005183280"
+hash = "9e7d0bf997c396baba88dc1ed71eb849e805bbd2dbf226eb1c33660804b5b37d"
+
+[[files]]
+file = "config/EasyAuth/backup/main.conf.2026-01-05T18-39-15.016123888"
+hash = "9e80f8ff3ad549f2e71e3e0eda6910bf5d03bc017ff27a892b75d231ea047825"
+
+[[files]]
+file = "config/EasyAuth/backup/translation.conf.2026-01-05T18-39-15.012189320"
+hash = "1ce6eb309fc914916d8fb296401d2694a2bc968b8a4c4170d8f4e2e43b7fef27"
 
 [[files]]
 file = "config/EasyAuth/extended.conf"
@@ -10,7 +22,7 @@ hash = "9e7d0bf997c396baba88dc1ed71eb849e805bbd2dbf226eb1c33660804b5b37d"
 
 [[files]]
 file = "config/EasyAuth/main.conf"
-hash = "9e80f8ff3ad549f2e71e3e0eda6910bf5d03bc017ff27a892b75d231ea047825"
+hash = "7bce3fe6f007e43a2757907d6a17f9a4cbbe51c5227d4f3074bacb6e07e580d1"
 
 [[files]]
 file = "config/EasyAuth/storage.conf"
@@ -25,8 +37,28 @@ file = "config/EasyAuth/translation.conf"
 hash = "1ce6eb309fc914916d8fb296401d2694a2bc968b8a4c4170d8f4e2e43b7fef27"
 
 [[files]]
+file = "config/Veinminer/blocks.json"
+hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+
+[[files]]
+file = "config/Veinminer/groups.json"
+hash = "b96cd84211b049f3b77fbffc226ea1a53cc85d69124dee2f3952547a43036b73"
+
+[[files]]
+file = "config/Veinminer/settings.json"
+hash = "74a35fe70a4359bd3a832d5516239d0377c51555297c4f4347ca13fd10de7a76"
+
+[[files]]
+file = "config/almanac-nbtFix.json5"
+hash = "c5c31e999c8252566f58c4d36b716a9fb674cd88021b3ffe9996c7e77d2b4c44"
+
+[[files]]
 file = "config/antixray.toml"
 hash = "6b365812291fb635b7e2dea096f52bed88e1d7ada9656bdda1dbc2ec759a3e94"
+
+[[files]]
+file = "config/bluemap-banners/bluemap-banners.properties"
+hash = "fb00318a2dd95f46db9345afeca2ef7d244dd03284e4d5c4e0df75f7a4f72d58"
 
 [[files]]
 file = "config/bluemap/core.conf"
@@ -66,11 +98,15 @@ hash = "a0a09b7d4ae8fbd0c0431131b99e777f412fcc5e6948821da411c2863a0fadd4"
 
 [[files]]
 file = "config/c2me.toml"
-hash = "90f7abeee79ce071a1bdabfa3e66c494eb874eec3226f3a1e5640068e761ab86"
+hash = "54156a9a41bf22a98d0e5266b3d2d7b8d642849feff234694cd1bdba230450ea"
 
 [[files]]
 file = "config/chunky/config.json"
 hash = "c7384a22595488f79f3125b22cc175eb729267267807a084479419349797abc8"
+
+[[files]]
+file = "config/chunky/tasks/minecraft/overworld.properties"
+hash = "2dc83bf812842b95742744cdea1721edd0b5bcaa722fb87235b93f224d0efc3a"
 
 [[files]]
 file = "config/ferritecore.mixin.properties"
@@ -81,8 +117,24 @@ file = "config/forgivingvoid-common.toml"
 hash = "e60d2e921f033f4603d37927fb70544150a7702af4d23a1cd49d459814c3c42d"
 
 [[files]]
+file = "config/fuji/backup/2026-01-05 18-39-15.zip"
+hash = "bee4953a62024f5d9b2133a1123fb1b4c050cf234da8f0ccda16cd5f314841b9"
+
+[[files]]
+file = "config/fuji/config.json"
+hash = "43aab28156bb7939d811df47f0fc9720f8be94e60069ee80c10fdc3cae41a492"
+
+[[files]]
+file = "config/fuji/permission.json"
+hash = "acd01831a854f5f42986674313c9e1e1cffcd5f3df1775cf36cc97ba64b5f1a8"
+
+[[files]]
 file = "config/image2map.json"
 hash = "017fcc31d5228472e9c4e42054f28df39c2bc11010ec6ae035d7af1d1b7e1eb3"
+
+[[files]]
+file = "config/letmedespawn.json"
+hash = "6af411644e22ede34383135509cb96b2a636d8ed45494b28976514a95537105e"
 
 [[files]]
 file = "config/lithium.properties"
@@ -206,7 +258,7 @@ hash = "912c0aff4bb5bf77bf907c6ccb072fae19948311d8cb8f4f5d2f97c94adb5533"
 
 [[files]]
 file = "config/luckperms/translations/repository/status.json"
-hash = "b5b7b1ed463d7ce9893ae789ed190c65b7a777f55b9a27d44db88bc51ed25b92"
+hash = "4a33b77765a11aeab7269a17fc021258ac6e8b551f23122030a35f1886f9cc1a"
 
 [[files]]
 file = "config/luckperms/translations/repository/sv_SE.properties"
@@ -237,8 +289,88 @@ file = "config/moderner_beta.json"
 hash = "3a2360be7854a19786e99ff65d32e6f9a205cea96062718b304b566157088f9a"
 
 [[files]]
+file = "config/polymer/auto-host.json"
+hash = "26ab57411745916fa6bf5f54b0df43dda04e3b6d379a5b3fdec94ad6d56f2382"
+
+[[files]]
+file = "config/polymer/common.json"
+hash = "310dee45deffb1f13169492bf25cee00503e91403daa8cffa653939feb76cc03"
+
+[[files]]
+file = "config/polymer/resource-pack.json"
+hash = "1fc09151357cec7e91619ec1ccb1c92dfb5ec89c4df176a584817702f5d9a2eb"
+
+[[files]]
+file = "config/polymer/server.json"
+hash = "eaec27618070f4daf636a5e8457c978e1d9afffa22fba907eca29cdd700a94d2"
+
+[[files]]
+file = "config/polymer/sound-patch.json"
+hash = "f815116c7a6a7ba28de432cf2be7fdbf49e2e1adb5436438d347d391ee3b5c74"
+
+[[files]]
+file = "config/servercore/config.yml"
+hash = "499dbb59f30e633a2b3e880e18c254047cdfe28171d4f924e6783b203a835657"
+
+[[files]]
+file = "config/servercore/optimizations.yml"
+hash = "636e170bdfcebaaa4ba49394b8bb29fb07e19cf1333f031f7c2cd4de66ff2479"
+
+[[files]]
+file = "config/skinrestorer/config.json"
+hash = "c2a6f0aa2cd759cb28567101112317106ad89a850291d1b91021d22a52fea062"
+
+[[files]]
 file = "config/spark/config.json"
 hash = "992ba9f3a4a7ce3de112eb95575328956fdc3ce6781c455ebce7b23db7e7da42"
+
+[[files]]
+file = "config/spark/tmp/about.txt"
+hash = "8057ccf4540ea269b0fc332225859f44d8f3a55d891fa2e7a3447b6202658d2a"
+
+[[files]]
+file = "config/tt20/block_entity_mask.json"
+hash = "ff334879cf2146f183ff4dd34dd8ef7860165e9f5bb1298689376ac95756a93b"
+
+[[files]]
+file = "config/tt20/config.json"
+hash = "e21f243cce683da823b2da20aca16d198839022a39851f34e7ee942220a29629"
+
+[[files]]
+file = "config/universal-graves/config.json"
+hash = "e5de99ef8cf0b47ade7d9248385778d33bdecae381fc4ee246d2c54749c7d81a"
+
+[[files]]
+file = "config/universal-graves/example_models/corpse_player.json"
+hash = "f1f86bd740c9bde120cca8769e900005cf46f67cfb076b65b50c339f47deb69e"
+
+[[files]]
+file = "config/universal-graves/example_models/corpse_zombie.json"
+hash = "dc1ee62c77ef7831f52c1c9a44c5dff3e5ccaa4094d43438e9fdbe1f41a06a17"
+
+[[files]]
+file = "config/universal-graves/example_models/default.json"
+hash = "c0f6c5e52fcfe066b1b300e9c4c738feb87dc1397ce45e58b99b63cb25e07167"
+
+[[files]]
+file = "config/universal-graves/example_models/ender.json"
+hash = "87be637b2b08c7f97550362d66f1682ce475c4c29a470f96a44cdf86f6dc6c0e"
+
+[[files]]
+file = "config/universal-graves/example_models/player_head.json"
+hash = "c0f6c5e52fcfe066b1b300e9c4c738feb87dc1397ce45e58b99b63cb25e07167"
+
+[[files]]
+file = "config/universal-graves/example_models/soul.json"
+hash = "bd3c7cba512978e4d0f5632aed773b47d93e80e9243656fc092d6cc56ddc53e1"
+
+[[files]]
+file = "config/veinminer/update/veinminer-client-2.5.2.jar"
+hash = "f0d42c3e4640ba5711f1550f121e8543cf6d140f1a2e79d4989e8d5861caf352"
+
+[[files]]
+file = "config/veinminer/update/veinminer-fabric-2.5.2.jar"
+hash = "4d399eb8b0752dda814a73a5ae73cc27b4fe8c152e2e2558b7690b5944d0e99b"
 
 [[files]]
 file = "config/voicechat/translations.properties"
@@ -246,11 +378,11 @@ hash = "b258a94a5ed60fbf93b66c452c3d6e36b044f630741f90e5b13852a4805b235e"
 
 [[files]]
 file = "config/voicechat/voicechat-server.properties"
-hash = "1b920776f11dabe9dedc9d75d068869f2cfb186740768063f383e54c774c4133"
+hash = "d982facad6cb643d61b1de3870da03f7c3a003cc095e4f811723eb592a0b09b7"
 
 [[files]]
 file = "config/worldedit/worldedit.properties"
-hash = "649ee572e5283466afca5999ebf7c5d25a148dfd6e3801d1d6d4c61b0c864dcf"
+hash = "68c41e8b47e183c6800f6461f0b7ba0f380f3f94326eb5884431bf1c73e76e1f"
 
 [[files]]
 file = "mods/almanac.pw.toml"
@@ -319,7 +451,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "0229e8fe7f696f76a0fce46d11ddeb5d1f4b687f595558636abd27210cde2633"
+hash = "39b4f43a271700276ff1ae632cf05f90b85f79670d955b50ced036e363a0efe9"
 metafile = true
 
 [[files]]
@@ -339,7 +471,7 @@ metafile = true
 
 [[files]]
 file = "mods/fuji.pw.toml"
-hash = "35b3add9148b332b8200d4bd038bc4b756dd68db2dee27fa9dff567af3e2a43c"
+hash = "b8207465afd93962f1a5097b3670693b5eeef176358c3accaf817113af7b30e6"
 metafile = true
 
 [[files]]
@@ -369,7 +501,12 @@ metafile = true
 
 [[files]]
 file = "mods/maplink.pw.toml"
-hash = "bb629dde390add8f98e58661320f3fe0bfd37f5f23e9cc0ce12b3786a4adc1f2"
+hash = "7d65f2be8f5fb676d3f3e013ea011d947dfa2203e6002d98945f6eaa60e57f63"
+metafile = true
+
+[[files]]
+file = "mods/mendingrework.pw.toml"
+hash = "09b4d40d30d9072d1904f4e430b9e0cba07fc4594833245afa1cf40465de5365"
 metafile = true
 
 [[files]]
@@ -449,7 +586,7 @@ metafile = true
 
 [[files]]
 file = "mods/worldedit.pw.toml"
-hash = "ec85eb2fb8af68643ac14c917ec83c0c9aae48fcce27d8ad9f9b76cfce9b7dea"
+hash = "d539ad167ee0754a701234303192e0db86f013f9842891d0ca7c43c09885b67b"
 metafile = true
 
 [[files]]
